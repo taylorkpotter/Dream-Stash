@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -78,8 +78,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Stash_Logo_And_Tagline.png" id="7mi-eR-0Wf">
-                                <rect key="frame" x="66" y="56" width="189" height="79"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Stash Logo No Tagline.png" id="7mi-eR-0Wf">
+                                <rect key="frame" x="47" y="77" width="226" height="74"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             </imageView>
@@ -103,6 +103,10 @@
                                     <action selector="addNewIdea:" destination="YQQ-pC-rNq" eventType="touchUpInside" id="VyB-Ef-xv9"/>
                                 </connections>
                             </button>
+                            <imageView appearanceType="aqua" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dream.png" id="i6s-Hd-Awr">
+                                <rect key="frame" x="100" y="28" width="107" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </view>
@@ -130,18 +134,8 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="bJl-2b-a4Q" userLabel="Large Icon">
                                         <rect key="frame" x="100" y="33" width="120" height="120"/>
                                     </imageView>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" id="DHE-1w-8iC" userLabel="Working Title">
-                                        <rect key="frame" x="51" y="211" width="219" height="30"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="12"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="done"/>
-                                        <connections>
-                                            <outlet property="delegate" destination="S6b-Mb-lq3" id="AUS-Ta-qx6"/>
-                                        </connections>
-                                    </textField>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" delaysContentTouches="NO" maximumZoomScale="2" keyboardDismissMode="interactive" id="7sn-BM-WZU" userLabel="Description Box">
-                                        <rect key="frame" x="20" y="301" width="280" height="184"/>
+                                        <rect key="frame" x="20" y="235" width="280" height="245"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
@@ -151,22 +145,15 @@
                                             <outlet property="delegate" destination="S6b-Mb-lq3" id="wtx-QM-ZYb"/>
                                         </connections>
                                     </textView>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Describe The Idea" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="utG-tm-Exs" userLabel="Describe Label">
-                                        <rect key="frame" x="92" y="264" width="135" height="21"/>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Describe your dream. " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="utG-tm-Exs" userLabel="Describe Label">
+                                        <rect key="frame" x="-10" y="174" width="340" height="53"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="15"/>
-                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Working Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="tPw-2v-tvf" userLabel="Title Label">
-                                        <rect key="frame" x="105" y="177" width="110" height="21"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="15"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Jjb-7l-ZEj" userLabel="Stash It Button">
-                                        <rect key="frame" x="114" y="499.99999998484304" width="93" height="43"/>
+                                        <rect key="frame" x="114" y="500.00000031335685" width="93" height="43"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES" heightSizable="YES"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
@@ -201,7 +188,6 @@
                         <outlet property="appDescription" destination="7sn-BM-WZU" id="7jW-hl-d9O"/>
                         <outlet property="selectedCategoryIcon" destination="bJl-2b-a4Q" id="QBU-Tw-Ilc"/>
                         <outlet property="stashButton" destination="Jjb-7l-ZEj" id="jo4-Ji-Hby"/>
-                        <outlet property="workingTitle" destination="DHE-1w-8iC" id="DXE-8K-8Jg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I54-7e-pAp" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -228,10 +214,10 @@
                                     <action selector="BacktoHome:" destination="v7P-z5-1Sn" eventType="touchUpInside" id="UNJ-ey-CaY"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pick an App Category" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RRl-Od-2UW">
-                                <rect key="frame" x="60" y="51.5" width="200" height="55"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pick an icon that represents your dream. " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RRl-Od-2UW">
+                                <rect key="frame" x="14" y="54" width="293" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="14"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -662,12 +648,13 @@
     <resources>
         <image name="GlowAddButton.png" width="1042" height="1042"/>
         <image name="Glowing_Browse_Button.png" width="1042" height="1042"/>
-        <image name="Stash_Logo_And_Tagline.png" width="1333" height="560"/>
+        <image name="Stash Logo No Tagline.png" width="916" height="265"/>
         <image name="Update_Add_Button.png" width="200" height="200"/>
         <image name="Update_Browse_Button.png" width="200" height="200"/>
         <image name="arrow_left.png" width="512" height="512"/>
         <image name="biz-icon" width="260" height="260"/>
         <image name="camera-icon" width="260" height="260"/>
+        <image name="dream.png" width="544" height="299"/>
         <image name="eat-and-drink-icon" width="260" height="260"/>
         <image name="education-icon" width="260" height="260"/>
         <image name="entertainment-icon" width="260" height="260"/>

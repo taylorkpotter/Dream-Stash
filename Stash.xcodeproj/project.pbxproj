@@ -19,8 +19,9 @@
 		D735184C191C61510042076A /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D735184B191C61510042076A /* CoreText.framework */; };
 		D735184E191C615A0042076A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D735184D191C615A0042076A /* Security.framework */; };
 		D7351850191C61660042076A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D735184F191C61660042076A /* SystemConfiguration.framework */; };
+		D7644117198C261F0079B6B1 /* Stash Logo No Tagline.png in Resources */ = {isa = PBXBuildFile; fileRef = D7644116198C261F0079B6B1 /* Stash Logo No Tagline.png */; };
+		D7644119198C266D0079B6B1 /* dream.png in Resources */ = {isa = PBXBuildFile; fileRef = D7644118198C266D0079B6B1 /* dream.png */; };
 		D779AD5B1919B1D000D0200E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D779AD5A1919B1D000D0200E /* libz.dylib */; };
-		D787F86D191DFB5700110620 /* Stash_Logo_And_Tagline.png in Resources */ = {isa = PBXBuildFile; fileRef = D787F86C191DFB5700110620 /* Stash_Logo_And_Tagline.png */; };
 		D787F86F191DFC5800110620 /* Glowing_Browse_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = D787F86E191DFC5800110620 /* Glowing_Browse_Button.png */; };
 		D787F871191DFD1A00110620 /* GlowAddButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D787F870191DFD1A00110620 /* GlowAddButton.png */; };
 		D7DFA66919117FD2001AE811 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7DFA66819117FD2001AE811 /* Foundation.framework */; };
@@ -79,8 +80,9 @@
 		D74E74F31914485C00935100 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
 		D74E74F41914485C00935100 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
 		D74E74F51914485C00935100 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		D7644116198C261F0079B6B1 /* Stash Logo No Tagline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stash Logo No Tagline.png"; sourceTree = "<group>"; };
+		D7644118198C266D0079B6B1 /* dream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dream.png; sourceTree = "<group>"; };
 		D779AD5A1919B1D000D0200E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		D787F86C191DFB5700110620 /* Stash_Logo_And_Tagline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stash_Logo_And_Tagline.png; sourceTree = "<group>"; };
 		D787F86E191DFC5800110620 /* Glowing_Browse_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Glowing_Browse_Button.png; sourceTree = "<group>"; };
 		D787F870191DFD1A00110620 /* GlowAddButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GlowAddButton.png; sourceTree = "<group>"; };
 		D7DFA66519117FD2001AE811 /* Stash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stash.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,11 +150,11 @@
 		D710C02019139C4500F6F372 /* Home & Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				D7644116198C261F0079B6B1 /* Stash Logo No Tagline.png */,
 				D72C705C191EA3C60033B879 /* right_arrow.png */,
 				D72C705D191EA3C60033B879 /* arrow_left.png */,
 				D787F870191DFD1A00110620 /* GlowAddButton.png */,
 				D787F86E191DFC5800110620 /* Glowing_Browse_Button.png */,
-				D787F86C191DFB5700110620 /* Stash_Logo_And_Tagline.png */,
 				D710C02119139C5600F6F372 /* Update_Add_Button.png */,
 				D710C02219139C5600F6F372 /* Update_Browse_Button.png */,
 			);
@@ -340,6 +342,7 @@
 		D7F007321911DE1400EB0C62 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				D7644118198C266D0079B6B1 /* dream.png */,
 				D70A8F48192264B100FD7F26 /* transparent_arrow.png */,
 				D710C02019139C4500F6F372 /* Home & Navigation */,
 			);
@@ -429,15 +432,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D70A8F49192264B100FD7F26 /* transparent_arrow.png in Resources */,
+				D7644119198C266D0079B6B1 /* dream.png in Resources */,
 				D72C705E191EA3C60033B879 /* right_arrow.png in Resources */,
 				D787F86F191DFC5800110620 /* Glowing_Browse_Button.png in Resources */,
 				D7DFA68119117FD2001AE811 /* Images.xcassets in Resources */,
+				D7644117198C261F0079B6B1 /* Stash Logo No Tagline.png in Resources */,
 				D72C705F191EA3C60033B879 /* arrow_left.png in Resources */,
 				D787F871191DFD1A00110620 /* GlowAddButton.png in Resources */,
 				D7DFA67319117FD2001AE811 /* InfoPlist.strings in Resources */,
 				D7DFA67C19117FD2001AE811 /* Main.storyboard in Resources */,
 				D710C02319139C5600F6F372 /* Update_Add_Button.png in Resources */,
-				D787F86D191DFB5700110620 /* Stash_Logo_And_Tagline.png in Resources */,
 				D710C02419139C5600F6F372 /* Update_Browse_Button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
