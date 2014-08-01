@@ -1,0 +1,19 @@
+PODS:
+  - MBAlertView (1.1.0)
+  - SWParallaxScrollView (0.1.1)
+  - TPKeyboardAvoiding (1.2.3)
+  - TWMessageBarManager (1.6.0)
+
+DEPENDENCIES:
+  - MBAlertView (~> 1.1.0)
+  - SWParallaxScrollView (~> 0.1)
+  - TPKeyboardAvoiding (~> 1.2)
+  - TWMessageBarManager (~> 1.6.0)
+
+SPEC CHECKSUMS:
+  MBAlertView: 0044095d026308882a807e55dd2b4f89f8be5702
+  SWParallaxScrollView: 25e51db0493836222a64f58b6b9c36c9c9744320
+  TPKeyboardAvoiding: ca26afa683d829cb96fe69b887fc8be4178f0b9a
+  TWMessageBarManager: 483963f4a300e31cbd8936378d4a255e6db5b6b3
+
+COCOAPODS: 0.33.1

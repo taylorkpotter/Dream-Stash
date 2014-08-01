@@ -1,0 +1,1 @@
+../../SWParallaxScrollView/Classes/SWParallaxScrollView.h
